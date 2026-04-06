@@ -1,0 +1,11 @@
+﻿[package]
+name = "facet"
+version = "0.1.0"
+edition = "2021"
+description = "Minimal 3D viewer for OBJ and XYZ (Bevy port of Facet)"
+
+[dependencies]
+bevy = { version = "0.18", default-features = true, features = ["3d"] }
+bevy_panorbit_camera = "0.34"
+clap = { version = "4", features = ["derive"] }
+tobj = "4"

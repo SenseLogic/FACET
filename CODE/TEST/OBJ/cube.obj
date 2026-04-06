@@ -1,0 +1,28 @@
+v -1 -1 -1
+v  1 -1 -1
+v  1  1 -1
+v -1  1 -1
+v -1 -1  1
+v  1 -1  1
+v  1  1  1
+v -1  1  1
+
+mtllib cube.mtl
+
+usemtl Red
+f 3 7 6 2
+
+usemtl DarkRed
+f 5 8 4 1
+
+usemtl Green
+f 8 7 3 4
+
+usemtl DarkGreen
+f 2 6 5 1
+
+usemtl Blue
+f 6 7 8 5
+
+usemtl DarkBlue
+f 4 3 2 1
